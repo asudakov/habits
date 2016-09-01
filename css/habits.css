@@ -30,6 +30,54 @@ h6 {
     font-weight: 400;
 }
 
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+
+/*    padding-top: 10%; */
+
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.embed-responsive-2 {
+    position: absolute;
+    left: 2%; right: 2%;
+    top: 50%;
+    /* video height / video width - margin */
+    padding-bottom: 54.2%;
+    /* the above value * 0.5 */
+    margin-top: -27.2%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.page-header {
+    padding: 50px 50px 0;
+    
+}
+
+.page-header > h1 {
+        text-align: center;    
+}
+
+.content-section{
+    padding: 5px 0;
+    background-color: #f8f8f8;
+}
+
+
+
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
@@ -116,7 +164,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/desert.jpg) no-repeat center center;
     background-size: cover;
 }
 
